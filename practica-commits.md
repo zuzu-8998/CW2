@@ -59,12 +59,12 @@ Algo sobre mí : Me dan miedo las arañas
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git init` | Inicializa un nuevo repo local de git en la carpeta actual |
+| `git status` | Muestra el estado actual de los archivos del repositorio|
+| `git add .` | Añade todos los cambios al Staging Area |
+| `git commit -m "..."` | Crea un punto de control con los cambios en staging con un mensaje |
+| `git log --oneline` | Muestra el historial de commits|
+| `git push` | Sube los commits del repositorio local al repositorio remoto|
 
 ---
 
