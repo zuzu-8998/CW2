@@ -48,7 +48,7 @@ Algo sobre mí : Me dan miedo las arañas
 
 1. Las convenciones para los mensajes del commit
 2. Que Git y GitHub se crearon porque BitKeeper se volvió de paga
-3. Que GitLab está basado en gGit y se usa en varias instituciones, incluyendo la UNAM
+3. Que GitLab está basado en Git y se usa en varias instituciones, incluyendo la UNAM
 
 ---
 
