@@ -23,7 +23,9 @@ Algo sobre mí : Me dan miedo las arañas
 **Qué hacer:** Agrega al menos tres cosas que sabes hacer (no tienen que ser de programación).  
 **Commit:** `feat(habilidades): agrega lista de habilidades`
 
-- 
+- Pintar
+- Dibujar
+- Bailar
 
 ---
 
