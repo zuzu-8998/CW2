@@ -11,9 +11,9 @@ Edita → `git add practica-commits.md` → `git commit -m "..."`
 **Commit:** `feat(perfil): agrega presentación de [tu nombre]`
 
 ```
-Nombre     : 
-GitHub     : 
-Algo sobre mí : 
+Nombre     : Citlalli Chávez Núñez
+GitHub     : zuzu-8998
+Algo sobre mí : Me dan miedo las arañas
 ```
 
 ---
@@ -44,9 +44,9 @@ Algo sobre mí :
 **Qué hacer:** Escribe tres cosas concretas que aprendiste en esta sesión.  
 **Commit:** `docs(aprendizaje): agrega notas de la sesión`
 
-1. Las convenciones para los mensajes del commmit
+1. Las convenciones para los mensajes del commit
 2. Que Git y GitHub se crearon porque BitKeeper se volvió de paga
-3. Que gitLab está basado en git y se usa en varias instituciones, incluyendo la UNAM
+3. Que GitLab está basado en gGit y se usa en varias instituciones, incluyendo la UNAM
 
 ---
 
