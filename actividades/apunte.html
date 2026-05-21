@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Citlalli Chavez Nuñez">
+    <meta name="description" content="Apunte de etiquetas">
+    <title>Apunte de etiquetas</title>
+    <style>
+        table,th,td{
+            border: solid, 2px, rgb(236, 55, 139);
+            background-color: rgb(235, 169, 200);
+        }
+        table{
+            width: 80%;
+            justify-self: center;
+        }
+        caption{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+    <caption>Apunte de etiquetas</caption>
+    <thead>
+        <tr>
+            <th>Etiqueta</th>
+            <th>Para qué sirve</th>
+            <th>Ejemplo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>&ltfigcaption&gt</td>
+            <td>Para poner un pie de imagen</td>
+            <td>
+                <pre>
+                    <code>
+                        &ltfigure&gt
+                            &ltimg src="gatoConLentesMuejejeje.jpg">
+                            &ltfigcaption>Figura 1. Gato con lentes de sol&ltfigcaption&gt
+                        &lt/figure&gt
+                    </code>
+                </pre>
+            </td>
+        </tr>
+        <tr>
+            <td>&ltalt&gt</td>
+            <td>Para poner un texto alternativo cuando la imagen no carga y para accesibilidad</td>
+            <td>
+                <pre>
+                    <code>
+                        &ltfigure&gt
+                            &ltimg src="hamsterSombrero.jpg" alt="Imagen de un hamster con sombrero">
+                        &lt/figure&gt
+                    </code>
+                </pre>
+            </td>
+        </tr>
+        <tr>
+            <td>&lta&gt</td>
+            <td>Para insertar un hipervínculo</td>
+            <td>
+                <pre>
+                    <code>
+                        &lta href="https://classroom.google.com"&gt Clasroom&lt/a&gt
+                    </code>
+                </pre>
+            </td>
+        </tr>
+        <tr>
+            <td>&ltul&gt</td>
+            <td>Para insertar una lista desordenada</td>
+            <td>
+                <pre>
+                    <code>
+                        &ltp&gtMis galletas favoritas&lt/p&gt
+                        &ltul&gt
+                            &ltli&gtPríncipe&lt/li&gt
+                            &ltli&gtOreo&lt/li&gt
+                            &ltli&gtArcoíris&lt/li&gt
+                        &lt/ul&gt
+                    </code>
+                </pre>
+            </td>
+        </tr>
+        <tr>
+            <td>&ltol&gt</td>
+            <td>Para insertar una lista ordenada</td>
+            <td>
+                <pre>
+                    <code>
+                        &ltp&gtTop 5 best colores del mundo&lt/p&gt
+                        &ltol&gt
+                            &ltli&gtRosa&lt/li&gt
+                            &ltli&gtMorado&lt/li&gt
+                            &ltli&gtAmarillo&lt/li&gt
+                            &ltli&gtAzul cielo&lt/li&gt
+                            &ltli&gtNaranja&lt/li&gt
+                        &lt/ol&gt
+                    </code>
+                </pre>
+            </td>
+        </tr>
+    </tbody>
+    </table>
+</body>
