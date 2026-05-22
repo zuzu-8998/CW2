@@ -1,0 +1,115 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 232, 204);
+}
+#axel.color-favorito
+{
+    background-color: blue; 
+    color:white 
+}
+#axel.color-favorito:hover
+{
+    background-color: white; 
+    color:blue; 
+}
+#sofia.color-favorito
+{
+    background-color: black;
+    color: white
+}
+#sofia.color-favorito:hover
+{
+    background-color: white;
+    color: black
+}
+#citlalli.color-favorito
+{
+	background-color: rgb(245, 66, 167);
+}
+#citlalli.color-favorito:hover
+{
+	background-color: black;
+    color:rgb(245, 66, 167);
+}
+#jorge.color-favorito{
+    background-color: red;
+}
+#jorge.color-favorito:hover
+{
+    background-color: black;
+    color:red;
+}
+#emilio.color-favorito
+{
+    background-color: rgb(30, 129, 80);
+}
+#emilio.color-favorito:hover
+{
+    background-color: black;
+    color:rgb(30, 129, 80);
+}
+table 
+{
+    border-collapse: collapse; 
+    width: 30%;
+    justify-self: center;
+    position: relative;
+    background-color: #E6E6E6;
+    top: 150px;
+    margin-right: 7px;
+}
+caption
+{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+td,th
+{
+    border:3px ridge rgb(85, 62, 36);
+    font-size: 25px;
+    text-align: center;
+
+}
+#clipboard
+{
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 33%;
+}
+#sticky-note
+{
+    display: flex;
+    right: 0px;
+    top: 0px;
+    width:250px;
+    height:250px;
+    position:fixed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sticky-note-img
+{
+    height: 250px;
+    position: absolute;
+    z-index: -1;
+}
+@media screen and (max-width:1000px) 
+{
+    body
+    {
+        background-color: rgb(197, 255, 253);
+    } 
+}
+@media screen and (max-width:700px) 
+{
+    body
+    {
+        background-color: rgb(255, 181, 181);
+    } 
+}
